@@ -5,8 +5,8 @@ import {Link, NavLink} from "react-router-dom"
 const Navbar = (() => {
     return(
         <div>
-           <nav>
-            <Link to='/' >fooldal</Link>
+           <nav className="pa3 pa4-ns">
+            <Link className="" to='/' >fooldal</Link>
             <NavLink to ='/Ermesek'>az olimpia ermesei </NavLink>
             <NavLink to ='/Mermesek'>a magyar ermesek</NavLink>
 
